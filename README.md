@@ -16,27 +16,27 @@ automation, and a modern Angular frontend.
 ### Backend Services
 
 -   **Product Service**\
-    https://github.com/IslamHamada/petshop_productservice\
+    https://github.com/IslamHamada/petshop_productservice
 -   **Cart Service**\
-    https://github.com/IslamHamada/petshop_cartservice\
+    https://github.com/IslamHamada/petshop_cartservice
 -   **Order Service**\
-    https://github.com/IslamHamada/petshop_orderservice\
+    https://github.com/IslamHamada/petshop_orderservice
 -   **User Service**\
     https://github.com/IslamHamada/petshop_userservice
 
 ### Infrastructure
 
 -   **API Gateway**\
-    https://github.com/IslamHamada/petshop_gateway\
+    https://github.com/IslamHamada/petshop_gateway
 -   **Config Server**\
-    https://github.com/IslamHamada/petshop_configserver\
+    https://github.com/IslamHamada/petshop_configserver
 -   **Service Registry**\
     https://github.com/IslamHamada/petshop_serviceregistry
 
 ### Shared
 
 -   **Shared Contracts**\
-    https://github.com/IslamHamada/petshop_contracts\
+    https://github.com/IslamHamada/petshop_contracts
 -   **Shared Config**\
     https://github.com/IslamHamada/petshop_sharedconfig
 
@@ -52,15 +52,15 @@ automation, and a modern Angular frontend.
 
 ## 🛠️ Tech Stack
 
--   Java 17, Spring Boot 3.x, Spring Cloud\
--   Angular, Angular Material, Auth0\
+-   Java 17, Spring Boot 3.x, Spring Cloud
+-   Angular, Angular Material, Auth0
 -   Docker, Jib, Jenkins, Kubernetes, GKE
 
 ## ✨ Features
 
--   Auth0 login\
--   Product catalog\
--   Cart & Order pipeline\
--   Gateway routing & JWT validation\
--   Centralized config + Eureka discovery\
+-   Auth0 login
+-   Product catalog
+-   Cart & Order pipeline
+-   Gateway routing & JWT validation
+-   Centralized config + Eureka discovery
 -   CI/CD to GKE
