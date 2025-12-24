@@ -3,20 +3,19 @@
 PetShop is a fully containerized microservices-based e-commerce
 application built with **Spring Boot**, **Angular**, **Auth0**,
 **Docker**, **Kubernetes**, and **Jenkins CI/CD**.\
-It demonstrates a real cloud-ready architecture with authentication,
-routing, centralized configuration, service discovery, deployment
-automation, and a modern Angular frontend.
+It also demonstrates:
+- Centralizaed configuration (Spring Cloud Config)
+- Service discovery (Eureka)
+- API Gateway routing
+- JWT auth (Auth0)
+- Distributed tracing to ZipKin + log correlation (traceId/spanId)
 
 ### Frontend / Gateway:
 - https://34.54.201.1.sslip.io/
 
-## 🚀 Architecture Overview
-
-    ... (diagram omitted for brevity in this preview; full in file)
-
 ## 🧩 Microservices & Repositories
 
-### Backend Services
+### Business Services
 
 -   **Product Service**\
     https://github.com/IslamHamada/petshop_productservice
@@ -50,20 +49,21 @@ automation, and a modern Angular frontend.
 
 ### Deployment
 
--   **Deployment Repository (docker‑compose + K8s + MySQL)**\
+-   **Deployment Repository (docker‑compose + K8s + MySQL + Zipkin)**\
     https://github.com/IslamHamada/petshop_deployment
+
+## API entry points (via Gateway)
+- Product: /product/**
+- Cart: /cart/**
+- Order: /order/**
+- User: /user/**
+
+## Observability
+- Traces show up in Zipkin
+- Logs include traceId + spanId so you can correlate log lines with Zipkin traces.
 
 ## 🛠️ Tech Stack
 
 -   Java 17, Spring Boot 3.x, Spring Cloud
 -   Angular, Angular Material, Auth0
 -   Docker, Jib, Jenkins, Kubernetes, GKE
-
-## ✨ Features
-
--   Auth0 login
--   Product catalog
--   Cart & Order pipeline
--   Gateway routing & JWT validation
--   Centralized config + Eureka discovery
--   CI/CD to GKE
