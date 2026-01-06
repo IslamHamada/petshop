@@ -11,7 +11,7 @@ It also demonstrates:
 - Distributed tracing to ZipKin + log correlation (traceId/spanId)
 
 ### Frontend / Gateway:
-- https://34.54.201.1.sslip.io/
+- https://34.54.201.1.sslip.io/ (temporarily down!)
 
 ## 🧩 Microservices & Repositories
 
