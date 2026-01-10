@@ -59,6 +59,12 @@ It also demonstrates:
 - Order: /order/**
 - User: /user/**
 
+## Documentation OpenApiDoc/Swagger
+- Product: /product/swagger-ui.html
+- Cart: /cart/swagger-ui.html
+- Order: /order/swagger-ui.html
+- User: /user/swagger-ui.html
+
 ## Observability
 - Traces show up in Zipkin
 - Logs include traceId + spanId so you can correlate log lines with Zipkin traces.
