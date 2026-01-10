@@ -60,10 +60,10 @@ It also demonstrates:
 - User: /user/**
 
 ## Documentation OpenApiDoc/Swagger
-- Product: https://gateway.94.130.54.145.sslip.io//product/swagger-ui.html
-- Cart: https://gateway.94.130.54.145.sslip.io//cart/swagger-ui.html
-- Order: https://gateway.94.130.54.145.sslip.io//order/swagger-ui.html
-- User: https://gateway.94.130.54.145.sslip.io//user/swagger-ui.html
+- Product: https://gateway.94.130.54.145.sslip.io/product/swagger-ui.html
+- Cart: https://gateway.94.130.54.145.sslip.io/cart/swagger-ui.html
+- Order: https://gateway.94.130.54.145.sslip.io/order/swagger-ui.html
+- User: https://gateway.94.130.54.145.sslip.io/user/swagger-ui.html
 
 ## Observability
 - Traces show up in Zipkin
