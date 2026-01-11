@@ -26,6 +26,8 @@ It also demonstrates:
     https://github.com/IslamHamada/petshop_orderservice
 -   **User Service**\
     https://github.com/IslamHamada/petshop_userservice
+-   **Review Service**\
+    https://github.com/IslamHamada/petshop_reviewservice
 
 ### Infrastructure
 
@@ -58,12 +60,14 @@ It also demonstrates:
 - Cart: /cart/**
 - Order: /order/**
 - User: /user/**
+- Review: /review/**
 
 ## Documentation OpenApiDoc/Swagger
 - Product: https://gateway.94.130.54.145.sslip.io/product/swagger-ui.html
 - Cart: https://gateway.94.130.54.145.sslip.io/cart/swagger-ui.html
 - Order: https://gateway.94.130.54.145.sslip.io/order/swagger-ui.html
 - User: https://gateway.94.130.54.145.sslip.io/user/swagger-ui.html
+- Review: https://gateway.94.130.54.145.sslip.io/review/swagger-ui.html
 
 ## Observability
 - Traces show up in Zipkin
