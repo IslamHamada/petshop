@@ -28,6 +28,8 @@ It also demonstrates:
     https://github.com/IslamHamada/petshop_userservice
 -   **Review Service**\
     https://github.com/IslamHamada/petshop_reviewservice
+-   **Notifications Service**\
+    https://github.com/IslamHamada/petshop_notificationsservice
 
 ### Infrastructure
 
